@@ -6,7 +6,7 @@ const {Telegraf, Markup} = require('telegraf')
 const questions = require('./libs/questions.json')
 
 const PORT = process.env.PORT || 4000
-const token = '6405580292:AAEC44LwJoWD0vjE95cgBMUUV0MR3fSddYI'
+const token = process.env.TELEGRAM_TOKEN
 
 // schemas
 
@@ -22,7 +22,7 @@ const {middleware, mongo_connect, apollo_start, slicer, get_id, get_question} = 
 // middlewares
 
 middleware(app)
-mongo_connect('mongodb+srv://Slavus54:ieOUiW5CNwW5gQ5D@web-2024.v43n3ay.mongodb.net/Lawndon', 'MongoDB is connected...')
+mongo_connect(process.env.MONGO_URL, 'MongoDB is connected...')
 
 const typeDefs = gql`
     type Query {
