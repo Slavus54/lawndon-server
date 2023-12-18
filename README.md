@@ -7,5 +7,5 @@ Architecture based on microservices to work with *database, middlewares, ID and 
 Special for lawn care guys, you can use **Questions API** for free
 
 ~~~
-https://lawndon-node.onrender.com
+https://lawndon-node.onrender.com/questions
 ~~~
