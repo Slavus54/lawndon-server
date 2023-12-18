@@ -1,0 +1,32 @@
+[
+    {
+        "title": "What is the smallest height (inch) to mow a typical lawn?",
+        "level": "medium",
+        "answer": "1",
+        "points": 2
+    },
+    {
+        "title": "Should you mow the lawn when it's wet?",
+        "level": "easy",
+        "answer": "No",
+        "points": 1
+    },
+    {
+        "title": "Can overwatering cause grass problems?",
+        "level": "high",
+        "answer": "Yes",
+        "points": 3
+    },
+    {
+        "title": "Is it necessary to wear safety goggles when using a trimmer?",
+        "level": "easy",
+        "answer": "Yes",
+        "points": 1
+    },
+    {
+        "title": "Should you operate a lawnmower with a loose or damaged blade?",
+        "level": "medium",
+        "answer": "No",
+        "points": 2
+    }
+]
