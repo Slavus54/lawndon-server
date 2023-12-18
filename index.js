@@ -6,7 +6,7 @@ const {Telegraf, Markup} = require('telegraf')
 const questions = require('./libs/questions.json')
 
 const PORT = process.env.PORT || 4000
-const token = '6405580292:AAEC44LwJoWD0vjE95cgBMUUV0MR3fSddYI'
+const token = process.env.TELEGRAM_TOKEN
 
 // schemas
 
